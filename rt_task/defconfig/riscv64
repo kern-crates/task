@@ -1,1 +1,3 @@
 blk=n
+bus="mmio"
+block_dev="virtio-blk"
