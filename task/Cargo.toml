@@ -1,0 +1,17 @@
+[package]
+name = "task"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+axhal = { git = "ssh://git@github.com/shilei-massclouds/axhal.git" }
+mm = { git = "ssh://git@github.com/shilei-massclouds/mm.git" }
+fstree = { git = "ssh://git@github.com/shilei-massclouds/fstree.git" }
+taskctx = { git = "ssh://git@github.com/shilei-massclouds/taskctx.git" }
+filetable = { git = "ssh://git@github.com/shilei-massclouds/filetable.git" }
+wait_queue = { git = "ssh://git@github.com/shilei-massclouds/wait_queue.git" }
+spinbase = { git = "ssh://git@github.com/shilei-massclouds/spinbase.git" }
+spinpreempt = { git = "ssh://git@github.com/shilei-massclouds/spinpreempt.git" }

@@ -1,0 +1,19 @@
+[package]
+name = "rt_task"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arch_boot = { git = "ssh://git@github.com/shilei-massclouds/arch_boot.git" }
+axconfig = { git = "ssh://git@github.com/shilei-massclouds/axconfig.git" }
+axtype = { git = "ssh://git@github.com/shilei-massclouds/axtype.git" }
+axmount = { git = "ssh://git@github.com/shilei-massclouds/axmount.git" }
+axalloc = { git = "ssh://git@github.com/shilei-massclouds/axalloc.git" }
+axlog2 = { git = "ssh://git@github.com/shilei-massclouds/axlog2.git" }
+axhal = { git = "ssh://git@github.com/shilei-massclouds/axhal.git" }
+taskctx = { git = "ssh://git@github.com/shilei-massclouds/taskctx.git" }
+run_queue = { git = "ssh://git@github.com/shilei-massclouds/run_queue.git" }
+driver_block = { git = "ssh://git@github.com/shilei-massclouds/driver_block.git" }
+axdriver = { git = "ssh://git@github.com/shilei-massclouds/axdriver.git" }
+fstree = { git = "ssh://git@github.com/shilei-massclouds/fstree.git" }
+axfile = { git = "ssh://git@github.com/shilei-massclouds/axfile.git" }
